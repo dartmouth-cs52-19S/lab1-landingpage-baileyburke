@@ -2,3 +2,282 @@ li {
     list-style-type: none;
 }
 
+body {
+    font-family: 'Noticia Text', serif;
+    color: white;
+    background-image: url(Webp.net-resizeimage.jpg); 
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navbarLinks {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 400px;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    width: 100%;
+    top: 0rem;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(204, 217, 255);
+}
+
+h1 {
+    font-family: 'indie flower', cursive;
+    color: white;
+    font-size: 3rem;
+}
+
+#mainText {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+a {
+    font-family: 'Neucha', cursive;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+#hand {
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#subHeader {
+    font-size: 2rem;
+}
+
+#star {
+    position: inherit;
+    font-size: 50px;
+    color: rgb(204, 217, 255);
+}
+
+#star:hover {
+    color: rgb(200, 100, 200);
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bottomlinks {
+    color:rgb(255, 204, 204);
+}
+
+.linkText {
+    color: black;
+}
+
+#topButton {
+    background-color: rgb(204, 217, 255);
+    border-radius: 6px;
+    height: 2rem;
+    width: 100px;
+    padding-right: 10px;
+    border-style: solid;
+    border-color: rgb(255, 204, 204);
+    font-size: 15px;
+}
+
+a:hover {
+    color: rgb(200, 100, 200);
+   
+}
+
+#specialFeaturesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.specialFeature {
+    display: flex;
+    height: 10rem; 
+    width: 10rem;
+    background-color: white;
+}
+
+.specialFeature:hover {
+    margin-top: 1em;
+}
+
+.featureName{
+    color: black;
+    font-size: 20px;
+    font-family: 'Noticia Text', serif;
+    width: 300px;
+}
+
+.featureName:hover {
+    color: rgb(200, 100, 200);
+    text-decoration: underline;
+}
+
+.featureDescription{
+    color: black;
+    font-size: 12px;
+}
+
+.row {
+    background-color: white;
+    margin-top: 200px;
+    display: inline;
+    height: 400px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(204, 217, 255);
+}
+
+#feature1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#feature2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.photo {
+    position: relative;
+    height: inherit;
+}
+
+#featureTitle {
+    display: flex;
+    color: black;
+    justify-content: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+    #icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    #newsletter {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .navbarLinks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #specialFeaturesContainer {
+        flex-direction: column;
+    }
+
+    .top {
+        display: none;
+    }
+
+    #orderNow {
+        position: relative;
+        right: 250px;
+    }
+
+    #feature1 {
+        justify-content: center; 
+    }
+    
+    #feature2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .featureName {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-style: solid;
+    }
+
+    .featureDescription {
+        display: none;
+    }
+
+    .row {
+        height: auto;
+    }
+
+    .bottomlink {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bottomlinks {
+        font-size: 30px; 
+        padding-left: 200px;
+        border-style: solid;
+    }
+
+    .bottom {
+        padding-left: 200px;
+        font-size: 15px;
+    }
+
+    .specialFeature:hover {
+        margin-top: 0; 
+    }
+}

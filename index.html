@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bailey's Landing Page</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="flexBox">
-            <nav>
-                <a href="#">logo</a>
-                <ul id="navbarHeader"> 
-                    <li><a href="#">how does it work</a></li>
-                    <li><a href="#">shop</a></li>
-                    <li><a href="#">how to handle</a></li>
-                    <li><a href="#">reviews</a></li>
-                    <li><button type="button"><a href="#">order now</a></li></button>
-                </ul>
-            </nav>
+<head>
+    <title>Bailey's Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Neucha|Noticia+Text" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="flexBox">
+        <nav>
+            <a id="star" href="#"><i class="fas fa-star-half-alt"></i></a>
+            <ul class="navbarLinks">
+                <li class="top"><a href="#">how does it work</a></li>
+                <li class="top"><a href="#">shop</a></li>
+                <li class="top"><a href="#">how to handle</a></li>
+                <li class="top"><a href="#">reviews</a></li>
+                <li id="orderNow"><button id="topButton" type="button"><a class="linkText" href="#">order now</a></li>
+                </button>
+            </ul>
+        </nav>
+        <div id="mainText">
             <h1>
                 Introducing the First Ever ... Cloak of Invisibility
             </h1>
-            <p>
+            <p id="subHeader">
                 Now they see you ... now they don't
             </p>
+            <img id="hand" src="https://images.pexels.com/photos/255527/pexels-photo-255527.jpeg">
+        </div>
+        <div class="row">
+            <p id="featureTitle">Accessories</p>
             <div id="specialFeaturesContainer">
                 <div class="specialFeature" id="feature1">
-                    <p class="featureName">
-                        Waterproof Cloak
-                    </p>
+                    <a href="#">
+                        <p class="featureName">
+                            Waterproof Cloak
+                        </p>
+                    </a>
+                    <img class="photo"
+                        src="https://images.unsplash.com/photo-1530589282301-bb3f5b0783f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
                     <p class="featureDescription">
-                        Description about waterproof.
+                        Don't let the rain stop you from showing off (or not) your brand new purchase. Buy the
+                        Waterproof Cloak so you can stay hidden in any weather.
                     </p>
                 </div>
                 <div class="specialFeature" id="feature2">
-                    <p class="featureName">
-                        Invisibility Shoe Covers
-                    </p>
+                    <a href="#">
+                        <p class="featureName">
+                            Invisibility Shoe Covers
+                        </p>
+                    </a>
+                    <img class="photo"
+                        src="https://images.unsplash.com/photo-1459173422306-0ce3fb37f832?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80">
                     <p class="featureDescription">
-                        Description about shoe covers.
+                        Scared that when you walk your feet will slip out from under your cloak? Fear no more- purchase
+                        the shoe covers to ensure every spot stays hidden.
                     </p>
                 </div>
             </div>
-            <footer>
-                <ul class="bottomlink">
-                    <li class="bottomlinks">contact us</li>
-                    <li><a href="#">phone number</a></li>
-                    <li><a href="#">email</a></li>
-                    <li><a href="#">chatbot</a></li>
-                </ul>
-                <ul class="bottomlink">
-                    <li class="bottomlinks">store locations</li>
-                    <li><a href="#">new york</a></li>
-                    <li><a href="#">london</a></li>
-                    <li><a href="#">florence</a></li>
-                </ul>
-                <ul class="bottomlink">
-                    <li class="bottomlinks">styles</li>
-                    <li><a href="#">adult unisex M/L</a></li>
-                    <li><a href="#">adult unisex S/M</a></li>
-                    <li><a href="#">kids</a></li>
-                </ul>
-                <ul id="icons">
-                    <li>
-                        <a href="#">facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">instagram</a>
-                    </li>
-                </ul>
-                <div id="newsletter">
-                    <input type="email" placeholder="enter your email"></input>
-                    <button type="button"><a href="#">submit</a></button>
-                </div>
-            </footer>
+        </div>
+        <footer>
+            <ul class="bottomlink">
+                <li class="bottomlinks">contact us</li>
+                <li class="bottom"><a href="#">phone number</a></li>
+                <li class="bottom"><a href="#">email</a></li>
+                <li class="bottom"><a href="#">chatbot</a></li>
+            </ul>
+            <ul class="bottomlink">
+                <li class="bottomlinks">store locations</li>
+                <li class="bottom"><a href="#">new york</a></li>
+                <li class="bottom"><a href="#">london</a></li>
+                <li class="bottom"><a href="#">florence</a></li>
+            </ul>
+            <ul class="bottomlink">
+                <li class="bottomlinks">styles</li>
+                <li class="bottom"><a href="#">adult unisex M/L</a></li>
+                <li class="bottom"><a href="#">adult unisex S/M</a></li>
+                <li class="bottom"><a href="#">kids</a></li>
+            </ul>
+            <ul class="bottomlink" id="icons">
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></a></i>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></a></i>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></a></i>
+                </li>
+            </ul>
+            <ul class="bottomlink" id="newsletter">
+                <li><input type="email" placeholder="enter your email"></input></li>
+                <li><button type="button"><a class="linkText" href="#">submit</a></button></li>
+            </ul>
+        </footer>
         <div>
-    </body>
+</body>
 </html>
