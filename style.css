@@ -19,6 +19,12 @@ body {
     font-size: 30px;
 }
 
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+
 #newsletter {
     display: flex;
     justify-content: space-between;
@@ -133,7 +139,7 @@ a:hover {
     background-color: white;
 }
 
-.specialFeature:hover {
+.specialFeature:hover { /* idea inspired from stack overflow. It explained how to make a button expand but I tweaked it to make a section bounce */
     margin-top: 1em;
 }
 
@@ -187,6 +193,12 @@ a:hover {
     justify-content: center;
     margin: 0;
     font-size: 20px;
+}
+
+button {
+    border-style: solid;
+    border-radius: 6px;
+    border-color: rgb(255, 204, 204);
 }
 
 @media only screen and (max-width: 640px) {
