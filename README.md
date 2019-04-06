@@ -53,11 +53,11 @@ What didn't work:
 * A user would be able to input the email address. 
 
 ### Structure Layout Screenshots:
-![sc example1](Screen Shot 2019-04-03 at 12.37.28 AM.png)
+![sc example1](scOne.png)
 
 	
 
-![sc example2](Screen Shot 2019-04-03 at 12.37.36 AM.png)
+![sc example2](scTwo.png)
 
 ### I have attached in my repo: 
     -The image of Professor Tregubov's example
